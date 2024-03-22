@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "What are traits?",
-    answer: "Traits and Auras in WRLD CHNGRS are special visual elements that heroes can earn. Traits might include unique accessories or physical features, while Auras are glowing effects or special atmospheres surrounding your hero. They are rewards for achievements within the universe and make your hero look even cooler and more unique.",
+    answer: "Traits and AuraS in WRLD CHNGRS are special visual elements that heroes can earn. Traits might include unique accessories or physical features, while Auras are glowing effects or special atmospheres surrounding your hero. They are rewards for achievements within the universe and make your hero look even cooler and more unique.",
   },
   
   // Add more FAQs here
@@ -27,7 +27,7 @@ const FaqComponent = () => {
 
   return (
     <section className="bg-transparent dark:bg-transparent">
-      <div className="container px-6 py-10 mx-auto">
+      <div className="container px-6 py-10 md:mx-2 mx-auto">
         <h1 className="text-2xl font-pro font-semibold text-Secondary lg:text-3xl dark:text-Secondary">FAQs</h1>
         <hr className="my-6 border-gray-200 dark:border-gray-700" />
         <div>

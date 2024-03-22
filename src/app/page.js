@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
-import EmailForm from "./components/Emailform";
+import EmailForm from "./components/EmailForm";
 import Hero from "./components/Hero";
 import Video from "./components/Video";
 import Scroll from "./components/Scroll";
