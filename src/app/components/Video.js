@@ -4,12 +4,12 @@ import React from 'react'
 
 const Video = () => {
     return (
-      <div className="flex flex-col items-center justify-center w-full mt-24 space-y-4">
+      <div className="flex flex-col items-center  justify-center w-full mt-24 space-y-4">
         <div className="text-center mb-4">
           <h2 className="text-xl md:text-2xl font-bold font-pro">Made by Hand</h2>
           </div>
         <video 
-          className="w-full max-w-[500px]" 
+          className="w-full max-w-[500px] rounded-md" 
           autoPlay 
           muted 
           loop 
