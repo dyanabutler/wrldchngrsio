@@ -24,7 +24,7 @@ Receive early notifications for priority access to your WRLD CHNGR NFT
                 <input type="text" name="b_391e788ac216f67d93bcead51_889577b734" tabIndex="-1" />
               </div>
               <div className="text-center">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="mt-4 w-full  bg-Primary hover:bg-Secondary text-white font-bold py-2 px-4 shadow-md border-black rounded" value="Subscribe" />
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="mt-2 w-full font-pro shadow-sm bg-Primary hover:bg-Secondary text-black font-bold py-4 px-4 shadow-md border-black rounded" value="Get Notified of Drop" />
               </div>
             </div>
           </form>
