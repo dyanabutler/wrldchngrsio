@@ -1,7 +1,7 @@
 // components/EmailForm.js
 export default function EmailForm() {
     return (
-      <div id="mc_embed_shell" className="max-w-md mx-auto my-8 mt-24 ">
+      <div id="mc_embed_shell" className="max-w-md mx-auto my-8 mt-24 opacity-0 scale-95 animate-[fadeIn_1.5s_ease-out_forwards]">
         <div id="mc_embed_signup">
           <form action="https://wrldchngrs.us22.list-manage.com/subscribe/post?u=391e788ac216f67d93bcead51&amp;id=889577b734&amp;f_id=005fc0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_self" noValidate>
             <div id="mc_embed_signup_scroll" className="space-y-4">
