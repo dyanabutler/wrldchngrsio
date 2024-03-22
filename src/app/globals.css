@@ -4,16 +4,33 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 1, 1, 1;
   --background-end-rgb: 255, 255, 255;
+}
+
+.player-controls {
+  bottom: 2.5rem !important;
+}
+.video-wraper:hover > .player-controls {
+  bottom: 10px !important;
+}
+::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+  display: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 1, 1, 1;
     --background-end-rgb: 0, 0, 0;
   }
+
 }
 
 body {
@@ -24,10 +41,62 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  
+}
+
+
+
+
+@font-face {
+  font-family: 'FontPro';
+  src: url('/fonts/ObelixPro-cyr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-pro: 'FontPro', sans-serif;
+}
+
+.body-font {
+  font-family: var(--font-inter);
+}
+
+.font-pro {
+  font-family: var(--font-pro);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Define your custom animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes subtleBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Apply these animations with a delay for the second one */
+.fadeInFollowedByBounce {
+  animation: 
+    fadeIn 2.5s ease-out forwards,
+    subtleBounce 4s ease-in-out 2.5s infinite; /* Starts after fadeIn completes */
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.custom-gradient {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, black 100%);
 }
