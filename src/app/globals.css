@@ -100,3 +100,15 @@ body {
 .custom-gradient {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, black 100%);
 }
+
+/* Add this to your global CSS file or within a <style jsx> tag if you're using CSS-in-JS */
+
+.gallery-container {
+  position: absolute; /* Or 'absolute', depending on your needs */
+  bottom: 0;
+  right: 0;
+  width: 50vw; /* Adjust the width as necessary */
+  height: 50vh; /* Adjust the height as necessary */
+  z-index: 10; /* Ensure it's above other content */
+  overflow: hidden; /* Hide overflow to keep everything contained */
+}
