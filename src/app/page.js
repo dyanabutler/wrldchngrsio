@@ -26,9 +26,10 @@ export default function Home() {
         <Header />
         
         <Hero />
-        <Poster />
+        
         <EmailForm />
         <Scroll />
+        <Poster />
         
         <Video />
         <CardsContainer />
