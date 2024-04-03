@@ -18,7 +18,7 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            WRLD CHNGR is a unique, AI-driven NFT universe where players control heroes of various classes and body types, each uniquely generated. Our innovative AI technology ensures each hero is one-of-a-kind, with the user s journey directly influencing their heros development and the impacts they make in the game and, symbolically, in the real world.
+            WRLD CHNGR is a unique, NFT universe where players control heroes of various classes and body types, each uniquely generated. Our innovative AI technology ensures each hero is one-of-a-kind, with the user s journey directly influencing their heros development and the impacts they make in the game and, symbolically, in the real world.
             </p>
           </CollapsibleContent>
         </Collapsible>
