@@ -62,7 +62,7 @@ export default function Team() {
               alt="Team Member 4"
               className="mx-auto rounded-full object-cover object-center"
               height="200"
-              src="/blue.jpeg"
+              src="/blue.png"
               style={{
                 aspectRatio: "200/200",
                 objectFit: "cover",
