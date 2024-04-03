@@ -1,28 +1,41 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
+
 import EmailForm from "./components/EmailForm";
-import Hero from "./components/Hero";
+
 import Video from "./components/Video";
 import Scroll from "./components/Scroll";
 import FaqComponent from "./components/Faq";
-import HeroCards from "./components/HeroCards";
+
 import "./globals.css";
+import About from "./components/About"
+import Team from "./components/Team";
+import Poster from "./components/Poster";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Header from "./components/Header";
+import CardsContainer from "./components/CardsContainer";
+import StickyFadeOutImage from "./components/StickyImage";
+import Background from "./components/Background";
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="background-image w-full" style={{ backgroundImage: `url(/bg-1.svg)`, backgroundSize: "cover", backgroundPosition: "top center" }}>
-        <Navbar />
+      <StickyFadeOutImage />
+      
+        <Header />
+        
         <Hero />
+        <Poster />
         <EmailForm />
         <Scroll />
-      </div>
+        
+        <Video />
+        <CardsContainer />
+        <Team />
+        
+        <FaqComponent />
       
-      {/* HeroCards section with Tailwind styling for spacing and layout */}
-     
-
-      <Video />
-      <FaqComponent />
     </main>
   );
 }

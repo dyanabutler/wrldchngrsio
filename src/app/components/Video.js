@@ -2,29 +2,31 @@
 
 import React from 'react'
 
-const Video = () => {
-    return (
-      <div className="flex flex-col items-center  justify-center w-full mt-24 space-y-4">
-        <div className="text-center mb-4">
-          <h2 className="text-xl md:text-2xl font-bold font-pro">Made by Hand</h2>
+export default function Component() {
+  return (
+    <section className="w-full py-12">
+      <div className="container px-4 md:px-6 flex flex-col items-center justify-center gap-4 min-h-[calc(100vh_-_theme(spacing.[">
+        <div className="max-w-prose prose prose-lg sm:prose-xl lg:prose-2xl dark:prose-invert">
+          <div className="space-y-2">
+            <h1 className="text-4xl font-extrabold tracking-tighter sm:text-6xl lg:text-7xl/none">Made by Hand</h1>
+            <p className="text-xl text-gray-500 dark:text-gray-400">
+            4444 Unique Heroes all crafted by a human hand
+            </p>
           </div>
-        <video 
-          className="w-full max-w-[500px] rounded-md" 
+        </div>
+        <video
+          alt="Hero"
+          className="aspect-square rounded-xl object-cover overflow-hidden border w-full max-w-[400px] dark:border-gray-850"
+          height="550"
+          width="550"
           autoPlay 
           muted 
           loop 
           controls 
-          src="/trailer.mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div className="text-center mb-10">
-          
-          <p className="mt-2 text-sm md:text-base">Discover the future of digital collectibles with our cutting-edge solutions designed to transform your world.</p>
-        </div>
+          src="/trailer.mp4"
+        />
       </div>
-    );
+    </section>
+  )
 }
 
-export default Video;
-
-  

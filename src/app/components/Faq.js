@@ -1,61 +1,75 @@
 "use client"
 import React, { useState } from 'react';
 
-const faqs = [
-  {
-    question: "What is WRLD CHNGRS?         ",
-    answer: "WRLD CHNGR is a unique, AI-driven NFT universe where players control heroes of various classes and body types, each uniquely generated. Our innovative AI technology ensures each hero is one-of-a-kind, with the user 's journey directly influencing their hero's development and the impacts they make in the game and, symbolically, in the real world.",
-  },
-  {
-    question: "What are impacts?",
-    answer: "Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish using your connections here with WRLD CHNGRS. These could align with real-world issues like environmental conservation or social justice. Each Impact not only progresses your impact level but also mirrors positive changes in the real world, emphasizing our game's commitment to making a difference.",
-  },
-  {
-    question: "What are traits?",
-    answer: "Traits and AuraS in WRLD CHNGRS are special visual elements that heroes can earn. Traits might include unique accessories or physical features, while Auras are glowing effects or special atmospheres surrounding your hero. They are rewards for achievements within the universe and make your hero look even cooler and more unique.",
-  },
-  
-  // Add more FAQs here
-];
 
-const FaqComponent = () => {
-  const [openFaq, setOpenFaq] = useState(null);
+import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible"
 
-  const toggleFaq = (index) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
-
+export default function Component() {
   return (
-    <section className="bg-transparent dark:bg-transparent">
-      <div className="container px-6 py-10 md:mx-2 mx-auto">
-        <h1 className="text-2xl font-pro font-semibold text-Secondary lg:text-3xl dark:text-Secondary">FAQs</h1>
-        <hr className="my-6 border-gray-200 dark:border-gray-700" />
-        <div>
-          {faqs.map((faq, index) => (
-            <React.Fragment key={index}>
-              <div>
-                <button className="flex items-center justify-between w-full focus:outline-none" onClick={() => toggleFaq(index)}>
-                  <h1 className="mx-4 text-xl text-gray-700 dark:text-white">{faq.question}</h1>
-                  <svg className={`flex-shrink-0 w-6 h-6 text-Primary transition-transform ${openFaq === index ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"></path>
-                  </svg>
-                </button>
-                {openFaq === index && (
-                  <div className="flex mt-4 md:mx-10">
-                    <span className="border border-yellow-500"></span>
-                    <p className="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
-              </div>
-              <hr className="my-8 border-yellow-200 dark:border-yellow-700" />
-            </React.Fragment>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
+    <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">Frequently Asked Questions</h1>
+      <div className="grid gap-6">
+        <Collapsible>
+          <CollapsibleTrigger asChild>
+            <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-black dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">What is WRLD CHNGRS?</h2>
+              <ChevronDownIcon className="h-5 w-5" />
+            </div>
+          </CollapsibleTrigger>
+          <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
+            <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
+            WRLD CHNGR is a unique, AI-driven NFT universe where players control heroes of various classes and body types, each uniquely generated. Our innovative AI technology ensures each hero is one-of-a-kind, with the user s journey directly influencing their heros development and the impacts they make in the game and, symbolically, in the real world.
+            </p>
+          </CollapsibleContent>
+        </Collapsible>
+        <Collapsible>
+          <CollapsibleTrigger asChild>
+            <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-back dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">What do impacts mean?</h2>
+              <ChevronDownIcon className="h-5 w-5" />
+            </div>
+          </CollapsibleTrigger>
+          <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
+            <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
+            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish using your connections here with WRLD CHNGRS. These could align with real-world issues like environmental conservation or social justice. Each Impact not only progresses your impact level but also mirrors positive changes in the real world, emphasizing our commitment to making a difference.
+            </p>
+          </CollapsibleContent>
+        </Collapsible>
+        <Collapsible>
+          <CollapsibleTrigger asChild>
+            <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-black dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How are you different from other NFTS?</h2>
+              <ChevronDownIcon className="h-5 w-5" />
+            </div>
+          </CollapsibleTrigger>
+          <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
+            <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
+            WRLD CHNGRS offers a unique NFT experience through building your character as if it were a video game. From changing your poses, bodytypes, skin tone, and accessories.
 
-export default FaqComponent;
+
+            </p>
+          </CollapsibleContent>
+        </Collapsible>
+      </div>
+    </div>
+  )
+}
+
+function ChevronDownIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m6 9 6 6 6-6" />
+    </svg>
+  )
+}

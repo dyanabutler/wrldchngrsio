@@ -1,7 +1,7 @@
-// components/EmailForm.js
+"use client"
 export default function EmailForm() {
     return (
-      <div id="mc_embed_shell" className="max-w-md mx-auto my-8 mt-24 opacity-0 scale-95 animate-[fadeIn_1.5s_ease-out_forwards]">
+      <div id="mc_embed_shell" className="max-w-md mx-auto my-8 mt-16 opacity-0 scale-95 animate-[fadeIn_1.5s_ease-out_forwards]">
         <div id="mc_embed_signup">
           <form action="https://wrldchngrs.us22.list-manage.com/subscribe/post?u=391e788ac216f67d93bcead51&amp;id=889577b734&amp;f_id=005fc0e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_self" noValidate>
             <div id="mc_embed_signup_scroll" className="space-y-4">
@@ -24,7 +24,7 @@ Receive early notifications for priority access to your WRLD CHNGR NFT
                 <input type="text" name="b_391e788ac216f67d93bcead51_889577b734" tabIndex="-1" />
               </div>
               <div className="text-center">
-                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="mt-2 w-full font-pro bg-Primary hover:bg-Secondary text-black font-bold py-4 px-4 shadow-md border-black rounded" value="Get Notified of Drop" />
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="mt-2 w-full font-pro bg-[#EA580C] hover:bg-Secondary text-black font-bold py-4 px-4 shadow-md border-black rounded" value="Get Notified of Drop" />
               </div>
             </div>
           </form>

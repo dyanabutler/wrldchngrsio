@@ -1,20 +1,22 @@
 "use client"
 import React from 'react';
 
-const Hero = () => (
-  
+export default function Hero() {
+  return (
+    <section className="w-full py-12 md:py-24 lg:py-16 xl:py-32">
+      <div className="container px-4 md:px-6">
+        <div className="flex flex-col items-center space-y-4 text-center">
+          <div className="space-y-2">
+          <h1 className="text-3xl font-pro text-[#EA580C] py-4 text-center px-12 opacity-0 scale-95 animate-[fadeIn_1.5s_ease-out_forwards]"
+    style={{
+      textShadow: '-2px 2px 0px white', // Adding white text shadow offset by x-4px and y-4px
+    }}>
+  ANNOUNCING AT NFT NYC APRIL 4TH AT 4:20 PM
+</h1>
 
-
-
-  <div className="flex flex-col justify-between animate-fadeIn mt-24">
-    <div className="flex-1"> {/* This div pushes the content to the middle and bottom */}
-    <h1 className="text-3xl font-pro text-Primary py-4 text-center shadow-red-500 px-12 opacity-0 scale-95 animate-[fadeIn_1.5s_ease-out_forwards] ">
-      ANNOUNCING AT NFT NYC APRIL 4TH AT 4:20 PM 
-    </h1>
-    </div>
-    
-    <div className="flex-1"></div> {/* Additional spacer if needed for alignment */}
-  </div>
-);
-
-export default Hero;
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
