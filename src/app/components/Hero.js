@@ -11,7 +11,7 @@ export default function Hero() {
     style={{
       textShadow: '-2px 2px 0px white', // Adding white text shadow offset by x-4px and y-4px
     }}>
-  ANNOUNCING AT NFT NYC APRIL 4TH AT 4:20 PM
+  A NEW KIND OF DIGITAL COLLECTIBLE
 </h1>
 
           </div>
