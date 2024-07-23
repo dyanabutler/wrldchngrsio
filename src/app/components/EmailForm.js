@@ -8,7 +8,7 @@ export default function EmailForm() {
               <h2 className="text-lg font-semibold text-center font-pro">Secure your spot as a WRLD CHNGR</h2>
               <div className="text-sm text-center font-inter">
                 
-Receive early notifications for priority access to your WRLD CHNGR NFT
+Receive early notifications for priority access to your hero
               </div>
               <div className="mc-field-group">
                 <label htmlFor="mce-EMAIL" className="block mb-2 text-sm font-medium font-inter">Email Address <span className="text-red-500">*</span></label>
