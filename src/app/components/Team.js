@@ -12,7 +12,7 @@ export default function Team() {
           <div className="space-y-4">
             <Image
               alt="Alejandro"
-              className="mx-auto rounded-full object-cover object-center"
+              className="mx-auto rounded-full object-cover  object-center"
               height="200"
               src="/ale.png"
               style={{
@@ -25,7 +25,7 @@ export default function Team() {
             <p className="text-sm text-gray-500">Creative Director</p>
             <p className="text-sm"></p>
           </div>
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <Image
               alt="Team Member 2"
               className="mx-auto rounded-full object-cover object-center"
@@ -40,7 +40,7 @@ export default function Team() {
             <h3 className="text-lg font-bold">Joseph</h3>
             <p className="text-sm text-gray-500">Head of Comms</p>
             <p className="text-sm"></p>
-          </div>
+          </div> */}
           <div className="space-y-4">
             <Image
               alt="Team Member 3"

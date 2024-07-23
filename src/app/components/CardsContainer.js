@@ -6,7 +6,7 @@ export default function CardsContainer() {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
       <CardComponent
         title="MYTHIC"
-        description="Ancient magic, realm between realities."
+        description="Ancient wisdom, realm between realities."
         imgSrc="/mythic.png"
       />
       <CardComponent

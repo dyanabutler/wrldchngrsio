@@ -18,20 +18,20 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            WRLD CHNGR is a unique, NFT universe where players control heroes of various classes and body types, each uniquely generated. Our innovative AI technology ensures each hero is one-of-a-kind, with the user s journey directly influencing their heros development and the impacts they make in the game and, symbolically, in the real world.
+            WRLD CHNGR is a unique, NFT universe where users build their heroes of various classes and body types, each uniquely generated. Users can attach lore to each hero using our journal entry feature ensuring each NFT is one-of-a-kind.
             </p>
           </CollapsibleContent>
         </Collapsible>
         <Collapsible>
           <CollapsibleTrigger asChild>
             <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-back dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
-              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">What do impacts mean?</h2>
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How does the journal entry feature work? </h2>
               <ChevronDownIcon className="h-5 w-5" />
             </div>
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish using your connections here with WRLD CHNGRS. These could align with real-world issues like environmental conservation or social justice. Each Impact not only progresses your impact level but also mirrors positive changes in the real world, emphasizing our commitment to making a difference.
+            Once you own a hero, you&apos;ll have the ability to create journal entries linked to your NFT. This allows you to add your own lore, write poems, share advice, and more—the possibilities are endless! 
             </p>
           </CollapsibleContent>
         </Collapsible>
@@ -44,7 +44,9 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            WRLD CHNGRS offers a unique NFT experience through building your character as if it were a video game. From changing your poses, bodytypes, skin tone, and accessories.
+            
+ChatGPT
+WRLD CHNGRS provides a unique NFT experience with our hero builder, allowing you to customize your character’s poses, body types, skin tones, and accessories. Once all 4,444 heroes are sold, our secret AI feature will be unveiled.
 
 
             </p>
