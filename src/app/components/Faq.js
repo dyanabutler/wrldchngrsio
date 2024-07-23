@@ -45,7 +45,7 @@ export default function Component() {
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
             
-ChatGPT
+
 WRLD CHNGRS provides a unique digital collectible experience with our hero builder, allowing you to customize your character&apos;s poses, body types, skin tones, and accessories. Once all 4,444 heroes are sold, our secret bonus feature will be unveiled.
 
 
