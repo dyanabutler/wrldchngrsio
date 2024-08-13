@@ -18,20 +18,20 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            WRLD CHNGR is a unique digital collectible universe where users build their heroes of various classes and body types, each uniquely generated. Users can attach lore to each hero using our journal entry feature ensuring each digital collectible is one-of-a-kind.
+            WRLD CHNGR is a unique digital collectible universe where users build their heroes of various genres and styles, each uniquely generated. Users can attach lore to each hero using our journey notes feature ensuring each digital collectible is one-of-a-kind.
             </p>
           </CollapsibleContent>
         </Collapsible>
         <Collapsible>
           <CollapsibleTrigger asChild>
             <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-back dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
-              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How does the journal entry feature work? </h2>
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How does the journey notes feature work? </h2>
               <ChevronDownIcon className="h-5 w-5" />
             </div>
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            Once you own a hero, you&apos;ll have the ability to create journal entries linked to your digital collectible. This allows you to add your own lore, write poems, share advice, and more—the possibilities are endless! 
+            Once you own a hero, you&apos;ll have the ability to create journey notes linked to your digital collectible. This allows you to add your own lore, write poems, share advice, and more—the possibilities are endless! 
             </p>
           </CollapsibleContent>
         </Collapsible>
@@ -47,7 +47,7 @@ export default function Component() {
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
             
 
-            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish in connections here with WRLD CHNGRS. These could align with your real-world actions on issues like environmental conservation or social justice and so many more. Each impact not only progresses your impact level in our universe but also mirrors positive changes in the real world, emphasizing our commitment to making a difference. 
+            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish in connections here with WRLD CHNGRS. These could align with your real-world actions on issues like environmental conservation or social justice and so many more. Each impact not only progresses your impact in our universe but also mirrors positive changes in the real world, emphasizing our commitment to making a difference. 
 
 
             </p>
@@ -56,7 +56,7 @@ export default function Component() {
         <Collapsible>
           <CollapsibleTrigger asChild>
             <div className="flex items-center justify-between px-4 py-2 rounded-lg cursor-pointer bg-black dark:bg-gray-800 hover:bg-orange-600 dark:hover:bg-gray-700 transition-colors">
-              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How are you different from other NFTS?</h2>
+              <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">How are you different from other digital collectibles?</h2>
               <ChevronDownIcon className="h-5 w-5" />
             </div>
           </CollapsibleTrigger>
