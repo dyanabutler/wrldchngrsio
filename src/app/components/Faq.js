@@ -31,7 +31,7 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            Once you own a hero, you&apos;ll have the ability to create journey notes linked to your digital collectible. This allows you to add your own lore, write poems, share advice, and more—the possibilities are endless! 
+            Once you own a hero, you&apos;ll have the ability to create journey notes linked to your digital collectible. This allows you to add your own lore, write poems, value capture, share advice, and more—the possibilities are endless! 
             </p>
           </CollapsibleContent>
         </Collapsible>
