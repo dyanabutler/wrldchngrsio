@@ -7,7 +7,7 @@ import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/component
 export default function Component() {
   return (
     <div className="container mx-auto px-4 md:px-6 lg:px-8 py-12">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">Frequently Asked Questions</h1>
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">ABOUT US</h1>
       <div className="grid gap-6">
         <Collapsible>
           <CollapsibleTrigger asChild>
