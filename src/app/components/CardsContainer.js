@@ -9,15 +9,16 @@ export default function CardsContainer() {
         description="Ancient wisdom, realm between realities."
         imgSrc="/mythic.png"
       />
-      <CardComponent
-        title="ANIME"
-        description=" Imagination, courage, boundless adventures."
-        imgSrc="/anime.png"
-      />
+     
       <CardComponent
         title="WARRIOR"
         description="Resilience, honor in unending conflict."
         imgSrc="/warrior.png"
+      />
+       <CardComponent
+        title="ANIME"
+        description=" Imagination, courage, boundless adventures."
+        imgSrc="/anime.png"
       />
       <CardComponent
         title="RISER"
