@@ -18,8 +18,9 @@ export default function Component() {
           </CollapsibleTrigger>
           <CollapsibleContent className="px-4 py-2 rounded-lg bg-gray-100 dark:bg-gray-800">
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
-            WRLD CHNGR is a unique digital collectible universe where users build their heroes of various genres and styles, each uniquely generated. Users can attach lore to each hero using our journey notes feature ensuring each digital collectible is one-of-a-kind.
-            </p>
+            WRLD CHNGR IS A UNIQUE DIGITAL COLLECTIBLE UNIVERSE WHERE USERS BUILD THEIR HEROES OF VARIOUS GENRES AND STYLES, EACH UNIQUELY GENERATED.
+
+           USERS CAN Add accessories attributes  and even personalize body type and skin tone TO EACH HERO  ENSURING EACH DIGITAL COLLECTIBLE IS ONE-OF-A-KIND. Just like you  because everyBODY is beautiful and should be celebrated.            </p>
           </CollapsibleContent>
         </Collapsible>
         <Collapsible>
