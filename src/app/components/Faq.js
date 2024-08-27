@@ -48,7 +48,7 @@ export default function Component() {
             <p className="text-sm md:text-base lg:text-lg text-gray-600 dark:text-gray-400">
             
 
-            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish in connections here with WRLD CHNGRS. These could align with your real-world actions on issues like environmental conservation or social justice and so many more. Each impact not only progresses your impact in our universe but also mirrors positive changes in the real world, emphasizing our commitment to making a difference. 
+            Impacts in WRLD CHNGRS refer to the positive actions and achievements you accomplish in connections here with WRLD CHNGRS. These could align with your real-world actions on issues like environmental conservation or social justice and so many more. Each impact not only progresses your impact in our universe but also can mirror positive changes in the real world, emphasizing our commitment to making a difference. 
 
 
             </p>
